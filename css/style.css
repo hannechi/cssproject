@@ -1,0 +1,106 @@
+/* id */
+#para1 {
+    color: brown;
+}
+
+/* class */
+.lorem {
+    color: orchid;
+    background-color: yellow;
+}
+
+.methode2 {
+    color: green;
+}
+
+/* balise */
+p {
+    color: red;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+html,body{
+    height: 100%;
+}
+/* 
+body {
+    background-color: lightblue;
+} */
+/* section div p
+{
+ background-color:yellow ;   
+}
+#p1,#p2,#titre
+{
+    background-color: aqua;
+} */
+
+section div p:last-child
+{
+    color:chocolate;
+}
+
+/* button
+{
+    background-color: blue;
+    color: white;
+    width: 90px;
+    height: 20px;
+}
+
+button:hover
+{
+    cursor: pointer;
+    background-color: black;
+    width: 100px;
+    height: 20px;
+    border-radius: 15px;
+    box-shadow: 15cm;
+} */
+
+.wrap
+{
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.button
+{
+    width: 140px;
+    height : 45px;
+    font-family:'Robot',sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: black;
+    background-color: white ;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.9s ease 0s;
+    cursor: pointer;
+    outline: none ;
+}
+
+.button:hover
+{
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgb(46, 229, 157,0.4);
+    color:#fff;
+    transform: translateY(-7px);   
+
+}
+
+.image:hover
+{
+    filter: invert();
+    transform: scale(3)
+}
+img.image
+{
+    width: 100px;
+    height: 90px;
+}
